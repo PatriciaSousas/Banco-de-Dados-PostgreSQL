@@ -1,0 +1,148 @@
+/* Funções de Agregação */
+
+/* Query Simples */
+SELECT
+	*
+FROM
+	FUNCIONARIOS;
+
+
+/* Contando o Número de Ocorrências */
+SELECT
+	COUNT(*)
+FROM
+	FUNCIONARIOS;
+	
+	
+SELECT
+	COUNT(*)
+FROM
+	DEPARTAMENTOS;
+	
+	
+SELECT
+	COUNT(*)
+FROM
+	LOCALIZACAO;
+
+
+/* Agrupando por Sexo com o Group By */
+SELECT
+	COUNT(*)
+FROM
+	FUNCIONARIOS
+GROUP BY
+	SEXO;
+
+
+/* Colocando o Nome da Coluna */
+SELECT
+	SEXO,
+	COUNT(*) AS QUANTIDADE
+FROM
+	FUNCIONARIOS
+GROUP BY
+	SEXO;
+
+
+/* Mostrando o Número de Funcionários de cada Departamento */
+SELECT
+	DEPARTAMENTO,
+	COUNT(*) AS QUANTIDADE
+FROM
+	FUNCIONARIOS
+GROUP BY
+	DEPARTAMENTO;
+
+
+/* Exibindo o Máximo de Salário */
+SELECT
+	MAX(SALARIO) AS "SALÁRIO MÁXIMO"
+FROM
+	FUNCIONARIOS;
+
+
+/* Exibindo o Mínimo de Salário */
+SELECT
+	MIN(SALARIO) AS "SALÁRIO MÍNIMO"
+FROM
+	FUNCIONARIOS;
+
+
+/* Exibindo o Máximo e o Mínimo de Salário Juntos */
+SELECT
+	MIN(SALARIO) AS "SALÁRIO MÍNIMO",
+	MAX(SALARIO) AS "SALÁRIO MÁXIMO"
+FROM
+	FUNCIONARIOS;
+
+
+/* Exibindo o Máximo e o Mínimo de cada Departamento */
+SELECT
+	DEPARTAMENTO,
+	MIN(SALARIO) AS "SALÁRIO MÍNIMO",
+	MAX(SALARIO) AS "SALÁRIO MÁXIMO"
+FROM
+	FUNCIONARIOS
+GROUP BY
+	DEPARTAMENTO;
+
+
+/* Exibindo o Máximo e o Mínimo por Sexo */
+SELECT
+	SEXO,
+	MIN(SALARIO) AS "SALÁRIO MÍNIMO",
+	MAX(SALARIO) AS "SALÁRIO MÁXIMO"
+FROM
+	FUNCIONARIOS
+GROUP BY
+	SEXO;
+
+
+/* Estatística */
+
+/* Mostrando uma Quantidade Limitada de Linhas */
+SELECT
+	*
+FROM
+	FUNCIONARIOS
+LIMIT
+	10;
+
+/* Qual o Gasto Total de Salário Pago pela Empresa */
+SELECT
+	SUM(SALARIO)
+FROM
+	FUNCIONARIOS;
+
+/* Qual o Montante Total que cada Departamento Recebe de Salário */
+SELECT
+	DEPARTAMENTO,
+	SUM(SALARIO)
+FROM
+	FUNCIONARIOS
+GROUP BY
+	DEPARTAMENTO;
+
+/* Por Departamento, Qual o Total e a Média Paga para os Funcionários? */
+SELECT
+	DEPARTAMENTO,
+	SUM(SALARIO) AS "VALOR TOTAL",
+	AVG(SALARIO) AS "MÉDIA SALARIAL"
+FROM
+	FUNCIONARIOS
+GROUP BY
+	DEPARTAMENTO;
+
+
+/* Ordenar */
+SELECT
+	DEPARTAMENTO,
+	SUM(SALARIO) AS "VALOR TOTAL",
+	AVG(SALARIO) AS "MÉDIA SALARIAL"
+FROM
+	FUNCIONARIOS
+GROUP BY
+	DEPARTAMENTO
+ORDER BY
+	3;
