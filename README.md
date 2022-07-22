@@ -1,6 +1,6 @@
 ## Comandos Banco-de-Dados-PostgreSQL
 
-Alguns pontos legais que abordei nesse projeto:
+Alguns pontos interessantes que abordei nesse projeto::
 
 - Comandos, Criação de tabelas, Criação do Banco de dados entre outros
 
