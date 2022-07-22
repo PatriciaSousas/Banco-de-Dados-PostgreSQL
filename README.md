@@ -1,46 +1,49 @@
-# Banco-de-Dados-PostgreSQL
-Comandos, Criação de tabelas, Criação do Banco de dados entre outros
+## Comandos Banco-de-Dados-PostgreSQL
 
-Curso Completo de Banco de Dados e SQL
+Alguns pontos legais que abordei nesse projeto:
 
-Temas abordados 
+- Comandos, Criação de tabelas, Criação do Banco de dados entre outros
 
-Criando um Banco de Dados
+- Curso Completo de Banco de Dados e SQL
 
-Criando Tabelas
+- Temas abordados 
 
-Inserindo Dados na Tabela
+- Criando um Banco de Dados
 
-Select (Selecionando Dados)
+- Criando Tabelas
 
-Funções de Agregações.
+- Inserindo Dados na Tabela
 
-Count (Contagem dos Dados) e Sum (Soma dos Dados).
+- Select (Selecionando Dados)
 
-Max (Máximo de um Valor) e Min (Mínimo de um Valor).
+- Funções de Agregações.
 
-Avg (Média de Valores).
+- Count (Contagem dos Dados) e Sum (Soma dos Dados).
 
-Group By (Agrupando Dados) e Order By (Ordenando Dados)
+- Max (Máximo de um Valor) e Min (Mínimo de um Valor).
 
-Constraints (Restrições) e Order By (Ordenação).
+- Avg (Média de Valores).
 
-Alter Table (Alterar Tabelas) e Insert Into (Inserindo Dados em Tabelas).
+- Group By (Agrupando Dados) e Order By (Ordenando Dados)
 
-Where (Fitrar Resultados da Consulta).
+- Constraints (Restrições) e Order By (Ordenação).
 
-Alias (Nomes Alternativos para Colunas e Tabelas).
+- Alter Table (Alterar Tabelas) e Insert Into (Inserindo Dados em Tabelas).
 
-Update (Atualizar Registro).
+- Where (Fitrar Resultados da Consulta).
 
-Views (Criando Tabelas Virtuais).
+- Alias (Nomes Alternativos para Colunas e Tabelas).
 
-Joins (Junção de Dados entre Duas Tabelas ou Mais).
+- Update (Atualizar Registro).
 
-Fuction (Criando Funções, ou seja, Rotinas Armazenadas).
+- Views (Criando Tabelas Virtuais).
 
-Procedures (Procedimentos Armazenados).
+- Joins (Junção de Dados entre Duas Tabelas ou Mais).
 
-Triggers 
+- Fuction (Criando Funções, ou seja, Rotinas Armazenadas).
 
-Link do curso : https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/
+- Procedures (Procedimentos Armazenados).
+
+- Triggers 
+
+- Link do curso : https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/
